@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>roboSolutions</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&family=Rubik&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+    <header>
+
+        <img src="images/robo Solutions_crop.png" alt="logo">
+        <nav>
+            <ul id="header-main-menu">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="customers.html">Our Customers</a></li>
+                <li><a href="fields.html">Our Fields</a></li>
+                <li><a href="careers.html">Careers</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <div class="container">
+
+        <h1>Register Now!</h1>
+        <form class="career-form">
+
+
+            <p>
+                <label>Full Name</label>
+                <input type="text" pattern=".{8,}" title=" Must be eight or more characters"
+                    placeholder="Enter your full name..." required>
+            </p>
+
+            <p>
+                <label>Experience</label>
+                <input type="number" required placeholder="Enter number of years...">
+            </p>
+
+            <p>
+                <label for="vacancy">Vacancy</label>
+                <select name="vacancy" id="" required>
+                    <option value="android-developer">Android Developer</option>
+                    <option value="full-stack-developer">Full Stack Developer</option>
+                    <option value="consultant">Consultant</option>
+                    <option value="research-and-development">Research And Development</option>
+
+                </select>
+            </p>
+
+            <p>
+                <label for="job-type">Job Type</label>
+                <select name="job-type" id="" required>
+                    <option value="full-time">Full Time</option>
+                    <option value="part-time">Part Time</option>
+                    <option value="freelance">Freelance</option>
+                    <option value="internship">Internship</option>
+
+                </select>
+            </p>
+
+
+            <button type="submit">Apply</button>
+        </form>
+
+
+    </div>
+
+</body>
+
+</html>

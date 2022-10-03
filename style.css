@@ -1,0 +1,221 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #222831;
+    padding: 20px;
+    border: #dddddd solid 4px;
+}
+
+header>img {
+    width: 20%;
+}
+
+header>img,
+nav {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+nav>#header-main-menu li {
+    display: inline-block;
+    padding: 10px;
+    font-family: 'Monoton', cursive;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+
+}
+
+nav>#header-main-menu li:hover {
+    border: #dddddd solid 2px;
+    background-color: #44474d;
+}
+
+nav>#header-main-menu a {
+    text-decoration: none;
+    color: #F05454;
+}
+
+
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.main {
+    background-color: #222831;
+    padding: 250px;
+}
+
+.main img {
+    width: 600px;
+    padding: 20px;
+    display: block;
+    margin: 0 auto;
+}
+
+body {
+    background-color: #222831;
+}
+
+
+
+.container-home>img {
+    width: 500px;
+    padding: 100px 40px 40px;
+    display: block;
+    margin: 0 auto;
+}
+
+.container-home>.home-p>p {
+    font-family: 'Rubik', sans-serif;
+    color: #dddddd;
+    text-align: center;
+    font-size: 25px;
+    padding: 20px;
+}
+
+.home-p {
+    background-color: #484848;
+    border: solid #dddddd 2px;
+    border-radius: 40px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+td {
+    font-family: 'Rubik', sans-serif;
+    color: #dddddd;
+    text-align: center;
+    background-color: #6f6f6f;
+    border: solid #dddddd 4px;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+table {
+    margin: 0 auto;
+    border: solid #dddddd 6px;
+    background-color: #F05454;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+th {
+    font-family: 'Rubik', sans-serif;
+    color: #30475E;
+    text-align: center;
+    border: solid #30475E 6px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #dddddd;
+}
+
+h1 {
+    font-family: 'Monoton', cursive;
+    text-align: center;
+    color: #F05454;
+    margin: 60px 0 40px;
+    font-size: 35px;
+}
+
+caption {
+    font-family: 'Monoton', cursive;
+    text-align: center;
+    color: #F05454;
+    margin: 40px 0 10px;
+    font-size: 20px;
+}
+
+.fields ol {
+    font-family: 'Rubik', sans-serif;
+    color: #dddddd;
+    font-size: 28px;
+    padding: 40px;
+    display: inline-block;
+    margin: 0 auto;
+
+}
+
+.fields {
+    background-color: #484848;
+    border: solid #dddddd 6px;
+    border-radius: 40px;
+    width: 20%;
+    margin: 0 auto;
+}
+
+
+
+.career-form {
+    background-color: #484848;
+    border: solid #dddddd 6px;
+    border-radius: 40px;
+    width: 40%;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+label,
+input {
+    font-family: 'Rubik', sans-serif;
+    color: #dddddd;
+    font-size: 20px;
+
+}
+
+input,
+select,
+option {
+    font-family: 'Rubik', sans-serif;
+    color: #6f6f6f;
+    opacity: 1;
+    font-size: 20px;
+    float: right;
+}
+
+.career-form p {
+    padding: 10px;
+    margin: 10px 0;
+}
+
+
+.career-form button {
+    font-family: 'Rubik', sans-serif;
+    background-color: #dddddd;
+    font-size: 18px;
+    padding: 10px;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.calc>p>a {
+    font-family: 'Monoton', cursive;
+    text-align: center;
+    color: #cb4a4a;
+    font-size: 20px;
+    display: block;
+    text-decoration: none;
+    margin: 0 auto;
+    border: #dddddd 4px solid;
+
+}
+
+.calc {
+    padding-top: 80px;
+    margin: 0 auto;
+    width: 30%;
+}
+
+.calc>p>a:hover {
+    background-color: #6f6f6fa0;
+}
